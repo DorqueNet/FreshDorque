@@ -9,6 +9,9 @@ base theme: bootstrap_business
 libraries:
  - dorquenet/global-scripts
  - dorquenet/global-styles
+
+libraries-override:
+   bootstrap_business/bootstrap: false
 # Regions
 regions:
     pre_header_first: 'Pre Header First'
