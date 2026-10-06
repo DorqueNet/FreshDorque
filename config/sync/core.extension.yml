@@ -67,7 +67,7 @@ module:
   views_ui: 0
   pathauto: 1
   views: 10
-  standard: 1000
+  minimal: 1000
 theme:
   claro: 0
   stable9: 0
@@ -77,4 +77,4 @@ theme:
   beargoyles: 0
   seven: 0
   adminimal_theme: 0
-profile: standard
+profile: minimal
