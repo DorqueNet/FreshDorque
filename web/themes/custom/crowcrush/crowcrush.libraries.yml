@@ -1,0 +1,7 @@
+global-scripts:
+  js:
+    js/dotsplash.js: {}
+global-styles:
+  css:
+    theme:
+      css/crowcrush.css: {}
