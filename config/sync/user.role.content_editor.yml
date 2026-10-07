@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - node.type.art_page
     - node.type.article
     - node.type.page
     - taxonomy.vocabulary.tags
@@ -28,22 +29,29 @@ permissions:
   - 'access files overview'
   - 'access toolbar'
   - 'administer url aliases'
+  - 'create art_page content'
   - 'create article content'
   - 'create page content'
   - 'create terms in tags'
   - 'create url aliases'
+  - 'delete any art_page content'
   - 'delete article revisions'
+  - 'delete own art_page content'
   - 'delete own article content'
   - 'delete own files'
   - 'delete own page content'
   - 'delete page revisions'
   - 'delete terms in tags'
+  - 'edit any art_page content'
+  - 'edit own art_page content'
   - 'edit own article content'
   - 'edit own comments'
   - 'edit own page content'
   - 'edit terms in tags'
   - 'revert all revisions'
+  - 'revert art_page revisions'
   - 'view all revisions'
+  - 'view art_page revisions'
   - 'view own unpublished content'
   - 'view term revisions in tags'
   - 'view the administration theme'
