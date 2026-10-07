@@ -8,7 +8,6 @@ id: feedback
 label: 'Get in touch with us'
 recipients:
   - christiahall@gmail.com
-  - christia@beargoyles.com
 reply: ''
 weight: 0
 message: 'Your message has been sent. Thank you for reaching out to us!'

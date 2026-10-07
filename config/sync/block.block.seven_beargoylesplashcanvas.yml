@@ -8,7 +8,7 @@ dependencies:
     - block_content
   theme:
     - seven
-id: seven_beargoylesplashcanvas
+id: seven_dorquenetplashcanvas
 theme: seven
 region: header
 weight: -7
@@ -16,7 +16,7 @@ provider: null
 plugin: 'block_content:a9aa3ccc-f315-4068-bcc3-a27c11a670d6'
 settings:
   id: 'block_content:a9aa3ccc-f315-4068-bcc3-a27c11a670d6'
-  label: 'BeargoyleSplash Canvas'
+  label: 'DorquenetSplash Canvas'
   label_display: '0'
   provider: block_content
   status: true
