@@ -1,6 +1,6 @@
-# Readme for Beargoyles.com
+# Readme for DorqueNet project
 
-![Beargoyle Artwork](https://beargoyles.com/sites/default/files/styles/large/public/2025-04/2025-02-23-03.57.47-v2-oil-clear2.png.webp)
+![DorqueNet Beargoyle](https://beargoyles.com/sites/default/files/2025-08/2024-01-15-23.50.47-v6-oil-clearb.png)
 
 ## For Developers
 
