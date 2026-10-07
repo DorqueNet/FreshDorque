@@ -1,0 +1,25 @@
+uuid: 3bed0d70-d54d-4145-aa0a-a2f84a7eea2c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dorquenet
+_core:
+  default_config_hash: 7EA9OiBOT_LIAvYf-qtAv77KjubLFa3LIcQzcYXbGrk
+id: dorquenet_branding
+theme: dorquenet
+region: footer_first
+weight: -13
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

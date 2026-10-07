@@ -1,14 +1,14 @@
-uuid: 34db0c04-7bce-4bcb-8308-e9bdaed39d3c
+uuid: 311fc5be-d946-41da-974e-a3191658c19f
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.beargoyle_art_page
-id: node.beargoyle_art_page.promote
-field_name: promote
+    - node.type.art_page
+id: node.art_page.status
+field_name: status
 entity_type: node
-bundle: beargoyle_art_page
-label: 'Promoted to front page'
+bundle: art_page
+label: Published
 description: ''
 required: false
 translatable: true

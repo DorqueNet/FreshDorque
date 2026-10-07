@@ -351,3 +351,12 @@ ul.menu li {
 #main-content {
     padding: 20px 0 30px 0;
 }
+
+p.small-print {
+  font-size:small;
+}
+
+p.footer {
+  color: #333333;
+  font-size: large;
+}

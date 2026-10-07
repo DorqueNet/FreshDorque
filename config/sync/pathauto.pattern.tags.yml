@@ -1,4 +1,4 @@
-uuid: d6b05f4a-1d13-4d31-b89f-4896fbc0305c
+uuid: 2ce3d2b9-9e7a-4422-bb8b-497cce96fe75
 langcode: en
 status: true
 dependencies:
@@ -6,12 +6,12 @@ dependencies:
     - taxonomy.vocabulary.tags
   module:
     - taxonomy
-id: beargoyle_tags
-label: 'Beargoyle Tags'
+id: tags
+label: Tags
 type: 'canonical_entities:taxonomy_term'
 pattern: '/[term:vocabulary:name]/[term:name]'
 selection_criteria:
-  88ee5074-a77b-4a70-97dd-f5ab3f4f24d5:
+  afb4db1d-b302-45c5-9fdd-73ed6987ca92:
     id: 'entity_bundle:taxonomy_term'
     negate: false
     context_mapping:

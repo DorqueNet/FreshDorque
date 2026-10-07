@@ -1,4 +1,4 @@
-uuid: c986e272-11d6-410b-b3d7-3c6be0c99bcb
+uuid: dc621920-bf53-4da8-af0f-ed9ab7045f6e
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,8 @@ dependencies:
   module:
     - taxonomy
     - user
-id: beargoyle_tags_block
-label: 'Beargoyle Tags Block'
+id: tagsblock
+label: 'Tags Block'
 module: views
 description: 'A block with beargoyle tags as links.'
 tag: ''
@@ -21,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Beargoyle Tags Block'
+      title: 'Tags Block'
       fields:
         name:
           id: name
@@ -114,22 +114,84 @@ display:
           id: status
           table: taxonomy_term_field_data
           field: status
+          relationship: none
+          group_type: group
+          admin_label: ''
           entity_type: taxonomy_term
           entity_field: status
           plugin_id: boolean
+          operator: '='
           value: '1'
           group: 1
+          exposed: false
           expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
             operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
         vid:
           id: vid
           table: taxonomy_term_field_data
           field: vid
+          relationship: none
+          group_type: group
+          admin_label: ''
           entity_type: taxonomy_term
           entity_field: vid
           plugin_id: bundle
+          operator: in
           value:
             tags: tags
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
       style:
         type: grid_responsive
         options:

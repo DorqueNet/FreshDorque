@@ -1,0 +1,25 @@
+uuid: 7c5102cd-4dc8-46e6-bd97-1be6e03fb686
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5d8ada77-efda-4b39-ab52-0721f41ffbd5'
+  module:
+    - block_content
+  theme:
+    - dorquenet
+id: dorquenet_footer_2
+theme: dorquenet
+region: footer
+weight: -13
+provider: null
+plugin: 'block_content:5d8ada77-efda-4b39-ab52-0721f41ffbd5'
+settings:
+  id: 'block_content:5d8ada77-efda-4b39-ab52-0721f41ffbd5'
+  label: Footer
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: default
+visibility: {  }
