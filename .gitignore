@@ -49,3 +49,5 @@ web/sites/simpletest
 
 # Ignore notes directory for local dev stuff
 /notes
+.ddev/traefik/
+.ddev/traefik/
