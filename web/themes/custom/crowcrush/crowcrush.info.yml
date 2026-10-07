@@ -1,0 +1,7 @@
+name: Crow Crush
+type: theme
+base theme: dorquenet
+core_version_requirement: ^10 || ^11
+
+libraries:
+  - newsite/global
