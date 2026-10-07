@@ -10,7 +10,7 @@ function OilPainting() {
   var startPos = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
   var prevPos = { x: window.innerWidth / 2, y: 0 };
   var dist = { x: 0, y: 0 };
-  var colour = getWhimsicalColor(0.25); // Initial mouse drag opacity
+  var colour = getWhimsicalColor(0.05); // Initial mouse drag opacity
 
   var mouseTimeout; // To track when the mouse stops moving
 
@@ -148,7 +148,7 @@ function OilPainting() {
 
     mouseTimeout = setTimeout(() => {
       // Change the color if the mouse stops moving for half a second
-      colour = getWhimsicalColor(0.15);
+      colour = getWhimsicalColor(0.20);
       console.log("Color changed to:", colour);
     }, 500); // 0.5 -second delay
 
@@ -157,7 +157,7 @@ function OilPainting() {
       Math.pow(prevPos.y - startPos.y, 2)
     );
 
-    var size = Math.random() * 10 / distance; // Adjust size based on distance
+    var size = Math.random() * 5 / distance; // Adjust size based on distance
 
     dist.x = (prevPos.x - startPos.x) * Math.sin(0.5) + startPos.x;
     dist.y = (prevPos.y - startPos.y) * Math.cos(0.5) + startPos.y;
@@ -182,14 +182,14 @@ function OilPainting() {
       // Draw a jagged line
       for (let i = 0; i < 5; i++) {
         context.lineTo(
-          prevPos.x + Math.random() * size * 20 - size * 10,
-          prevPos.y + Math.random() * size * 20 - size * 10
+          prevPos.x + Math.random() * size * 50 - size * 10,
+          prevPos.y + Math.random() * size * 50 - size * 10
         );
       }
     } else if (shapeType < 0.7) {
       // Draw a distorted circle (ellipse)
-      var radiusX = size * 20 * Math.random();
-      var radiusY = size * 20 * Math.random();
+      var radiusX = size * 50 * Math.random();
+      var radiusY = size * 50 * Math.random();
       context.ellipse(
         prevPos.x,
         prevPos.y,
@@ -203,7 +203,7 @@ function OilPainting() {
       // Draw a small polygon
       var sides = Math.floor(Math.random() * 5) + 3; // Random number of sides (3-7)
       var angleStep = (Math.PI * 2) / sides;
-      var radius = size * 20;
+      var radius = size * 100;
       for (let i = 0; i < sides; i++) {
         var angle = i * angleStep;
         context.lineTo(
@@ -220,7 +220,7 @@ function OilPainting() {
 
   var MouseDown = function (e) {
     e.preventDefault();
-    colour = getWhimsicalColor(0.15); // Change color on click
+    colour = getWhimsicalColor(0.05); // Change color on click
     context.fillStyle = colour;
     context.strokeStyle = colour;
   };
