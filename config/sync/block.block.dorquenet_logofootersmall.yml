@@ -2,10 +2,6 @@ uuid: c94fc4ac-55e9-478a-8cf5-4aa214eb5358
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:basic:a9ebc5d0-6a7d-40f5-956f-b55cdc153e11'
-  module:
-    - block_content
   theme:
     - dorquenet
 id: dorquenet_logofootersmall

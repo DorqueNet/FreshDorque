@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.rss
     - core.entity_view_mode.node.teaser
     - field.storage.node.field_preview
+    - system.menu.main
   module:
     - node
     - user
@@ -430,6 +431,15 @@ display:
         sorts: false
       display_extenders: {  }
       path: node
+      menu:
+        type: normal
+        title: Home
+        description: ''
+        weight: -50
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '0'
     cache_metadata:
       max-age: -1
       contexts:

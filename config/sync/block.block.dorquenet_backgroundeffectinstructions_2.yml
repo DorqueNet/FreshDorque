@@ -2,10 +2,6 @@ uuid: 923fd5d4-9956-4021-b599-ac06bb1583f4
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:basic:64b150c1-bbae-4c54-a5e6-18d73abc8a61'
-  module:
-    - block_content
   theme:
     - dorquenet
 id: dorquenet_backgroundeffectinstructions_2

@@ -2,10 +2,7 @@ uuid: 551a5551-7f9a-4c0f-9aa5-a407c9b62569
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:basic:dc12e8b5-77fa-43d8-aa3d-6f8b34e3d18d'
   module:
-    - block_content
     - system
   theme:
     - dorquenet
